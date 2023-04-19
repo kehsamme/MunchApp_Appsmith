@@ -76,7 +76,7 @@
               "version": 1,
               "totalRecordsCount": 0,
               "isLoading": false,
-              "onSearchTextChanged": "{{GetLocation.run(() => GetLocation.run(), () => showAlert('No Locations Found'))}}",
+              "onSearchTextChanged": "",
               "childStylesheet": {
                 "button": {
                   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -821,7 +821,7 @@
                       ],
                       "labelPosition": "Top",
                       "labelStyle": "",
-                      "inputType": "TEXT",
+                      "inputType": "NUMBER",
                       "isDisabled": false,
                       "key": "x45z3wpz6i",
                       "labelTextSize": "0.875rem",
@@ -1197,7 +1197,7 @@
               "key": "uh9z2msto4",
               "canFreezeColumn": true,
               "isDeprecated": false,
-              "rightColumn": 34,
+              "rightColumn": 52,
               "textSize": "0.875rem",
               "widgetId": "pg8yh7qq5x",
               "minWidth": 450,
@@ -1212,6 +1212,65 @@
               "originalTopRow": 103,
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Input_city",
+              "displayName": "Input",
+              "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
+              "searchTags": [
+                "form",
+                "text input",
+                "number",
+                "textarea"
+              ],
+              "topRow": 60,
+              "bottomRow": 67,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "autoFocus": false,
+              "type": "INPUT_WIDGET_V2",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 12.5625,
+              "dynamicTriggerPathList": [],
+              "resetOnSubmit": true,
+              "leftColumn": 25,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "labelPosition": "Top",
+              "labelStyle": "",
+              "inputType": "TEXT",
+              "isDisabled": false,
+              "key": "x45z3wpz6i",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 42,
+              "dynamicHeight": "FIXED",
+              "widgetId": "he49bcob24",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "showStepArrows": false,
+              "minWidth": 450,
+              "isVisible": true,
+              "label": "Input City:\n",
+              "version": 2,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "responsiveBehavior": "fill",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "iconAlign": "left",
+              "defaultText": "",
+              "minDynamicHeight": 4
             }
           ]
         },
@@ -1233,7 +1292,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "get_res_location.data"
+                "get_res_location.data",
+                "Input_city.text"
               ],
               "timeoutInMillisecond": 10000
             }
