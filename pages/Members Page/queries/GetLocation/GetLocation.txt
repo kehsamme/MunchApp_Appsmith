@@ -1,1 +1,1 @@
-{{}}
+{{get_res_location.data}}

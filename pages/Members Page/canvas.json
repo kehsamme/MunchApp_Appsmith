@@ -1213,21 +1213,23 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Members Page_GetLocation",
-              "name": "GetLocation",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                ""
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "Members Page_GetTopTen",
               "name": "GetTopTen",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Members Page_GetLocation",
+              "name": "GetLocation",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "get_res_location.data"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
