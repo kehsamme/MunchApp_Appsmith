@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{get_res_location.data}}",
+      "body": "",
       "bodyFormData": [],
       "httpMethod": "GET",
       "selfReferencingDataPaths": [],
@@ -45,9 +45,6 @@
     "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
-        "key": "body"
-      },
-      {
         "key": "datasourceUrl"
       }
     ],
@@ -55,8 +52,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Input_city.text",
-      "get_res_location.data"
+      "Input_city.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
