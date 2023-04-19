@@ -76,6 +76,7 @@
               "version": 1,
               "totalRecordsCount": 0,
               "isLoading": false,
+              "onSearchTextChanged": "{{GetLocation.run(() => GetLocation.run(), () => showAlert('No Locations Found'))}}",
               "childStylesheet": {
                 "button": {
                   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -123,7 +124,11 @@
               },
               "parentRowSpace": 10,
               "hideCard": false,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onSearchTextChanged"
+                }
+              ],
               "borderWidth": "1",
               "primaryColumns": {
                 "City": {
