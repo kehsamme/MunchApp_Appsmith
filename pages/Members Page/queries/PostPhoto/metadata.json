@@ -28,8 +28,17 @@
         }
       ],
       "encodeParamsToggle": true,
-      "queryParameters": [],
-      "body": "{{post_photo.data}}",
+      "queryParameters": [
+        {
+          "key": "id",
+          "value": ""
+        },
+        {
+          "key": "photo",
+          "value": ""
+        }
+      ],
+      "body": "{{\n\t{id:res_id.inputText, photo:r_photo.inputText}\n}}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -52,7 +61,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "post_photo.data"
+      "\n\t{id:res_id.inputText, photo:r_photo.inputText}\n"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

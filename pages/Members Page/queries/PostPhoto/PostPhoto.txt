@@ -1,1 +1,3 @@
-{{post_photo.data}}
+{{
+	{id:res_id.inputText, photo:r_photo.inputText}
+}}
