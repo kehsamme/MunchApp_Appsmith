@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1010,
+          "bottomRow": 1030,
           "containerStyle": "none",
           "snapRows": 64,
           "parentRowSpace": 1,
@@ -537,8 +537,8 @@
                 "number",
                 "textarea"
               ],
-              "topRow": 11,
-              "bottomRow": 18,
+              "topRow": 15,
+              "bottomRow": 22,
               "parentRowSpace": 10,
               "labelWidth": 5,
               "autoFocus": false,
@@ -599,8 +599,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 30,
-              "bottomRow": 34,
+              "topRow": 34,
+              "bottomRow": 38,
               "parentRowSpace": 10,
               "type": "BUTTON_WIDGET",
               "hideCard": false,
@@ -654,8 +654,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 50,
-              "bottomRow": 54,
+              "topRow": 54,
+              "bottomRow": 58,
               "parentRowSpace": 10,
               "type": "BUTTON_WIDGET",
               "hideCard": false,
@@ -1108,8 +1108,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 71,
-              "bottomRow": 75,
+              "topRow": 75,
+              "bottomRow": 79,
               "parentRowSpace": 10,
               "type": "BUTTON_WIDGET",
               "hideCard": false,
@@ -1426,8 +1426,8 @@
               "searchTags": [
                 "dropdown"
               ],
-              "topRow": 90,
-              "bottomRow": 101,
+              "topRow": 92,
+              "bottomRow": 103,
               "parentRowSpace": 10,
               "labelWidth": 5,
               "type": "SELECT_WIDGET",
@@ -1490,7 +1490,7 @@
                 "label"
               ],
               "topRow": 1,
-              "bottomRow": 6,
+              "bottomRow": 9,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -1517,7 +1517,7 @@
               "key": "flr5v6k323",
               "isDeprecated": false,
               "rightColumn": 17,
-              "backgroundColor": "#f3e8ff",
+              "backgroundColor": "#d8b4fe",
               "textAlign": "CENTER",
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "zjekyw1515",
@@ -1546,8 +1546,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 7,
-              "bottomRow": 11,
+              "topRow": 10,
+              "bottomRow": 15,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -1639,8 +1639,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 81,
-              "bottomRow": 89,
+              "topRow": 85,
+              "bottomRow": 91,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -1683,7 +1683,7 @@
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
               "originalBottomRow": 89,
-              "fontSize": "1.875rem",
+              "fontSize": "1.25rem",
               "minDynamicHeight": 4
             }
           ]
