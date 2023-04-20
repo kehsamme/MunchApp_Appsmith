@@ -335,7 +335,7 @@
                 }
               ],
               "needsHeightForContent": true,
-              "leftColumn": 18,
+              "leftColumn": 21,
               "delimiter": ",",
               "defaultSelectedRowIndex": 0,
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -1103,9 +1103,13 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 20.0625,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onTextChanged"
+                }
+              ],
               "resetOnSubmit": true,
-              "leftColumn": 18,
+              "leftColumn": 21,
               "dynamicBindingPathList": [
                 {
                   "key": "accentColor"
@@ -1121,15 +1125,16 @@
               "key": "ic3xja72xp",
               "labelTextSize": "0.875rem",
               "isRequired": false,
+              "onTextChanged": "{{GetContact.run()}}",
               "isDeprecated": false,
-              "rightColumn": 24,
+              "rightColumn": 28,
               "dynamicHeight": "FIXED",
               "widgetId": "7c4m4rk1ar",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "showStepArrows": false,
               "minWidth": 450,
               "isVisible": true,
-              "label": "Label",
+              "label": "Restaurant Name:",
               "version": 2,
               "parentId": "0",
               "labelAlignment": "left",
