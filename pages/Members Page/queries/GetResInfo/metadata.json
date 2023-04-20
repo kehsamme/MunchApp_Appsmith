@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/m/ResInfo/{{Input_city.inputText}}"
+        "url": "web:4000/m/resinfo/{{Input_city.inputText}}"
       },
       "invalids": [],
       "messages": [],
