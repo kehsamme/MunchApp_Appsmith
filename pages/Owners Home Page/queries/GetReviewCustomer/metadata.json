@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Owners Page",
+    "pageId": "Owners Home Page",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -53,7 +53,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Owners Page_GetReviewCustomer",
+  "id": "Owners Home Page_GetReviewCustomer",
   "deleted": false,
   "gitSyncId": "64401779824bbc19c6d4e4fd_64402648824bbc19c6d4e51e"
 }
