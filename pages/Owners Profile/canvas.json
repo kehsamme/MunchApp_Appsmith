@@ -527,7 +527,7 @@
                   "widgetName": "Canvas2",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 530,
+                  "bottomRow": 410,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -603,8 +603,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 43,
-                      "bottomRow": 47,
+                      "topRow": 37,
+                      "bottomRow": 41,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -613,7 +613,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 49,
+                      "leftColumn": 50,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -626,7 +626,7 @@
                       "isDisabled": false,
                       "key": "fqzof9d10e",
                       "isDeprecated": false,
-                      "rightColumn": 62,
+                      "rightColumn": 63,
                       "isDefaultClickDisabled": true,
                       "widgetId": "x7cxqwu9o2",
                       "minWidth": 120,
@@ -656,8 +656,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 49,
-                      "bottomRow": 53,
+                      "topRow": 37,
+                      "bottomRow": 41,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -666,7 +666,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 32,
+                      "leftColumn": 37,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -679,7 +679,7 @@
                       "isDisabled": false,
                       "key": "fqzof9d10e",
                       "isDeprecated": false,
-                      "rightColumn": 48,
+                      "rightColumn": 50,
                       "isDefaultClickDisabled": true,
                       "widgetId": "ir48mkvktx",
                       "minWidth": 120,
@@ -690,10 +690,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
-                      "originalTopRow": 49,
+                      "originalTopRow": 37,
                       "disabledWhenInvalid": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 53,
+                      "originalBottomRow": 41,
                       "buttonVariant": "SECONDARY",
                       "placement": "CENTER"
                     },
@@ -1448,7 +1448,7 @@
               "key": "8x8vzax81h",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 60,
+              "rightColumn": 61,
               "dynamicHeight": "FIXED",
               "widgetId": "kr96l889q7",
               "minWidth": 450,
@@ -1457,10 +1457,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 4,
+              "originalTopRow": 5,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 40,
-              "originalBottomRow": 45,
+              "originalBottomRow": 46,
               "minDynamicHeight": 10
             },
             {
@@ -1606,10 +1606,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
-                      "originalTopRow": 29,
+                      "originalTopRow": 25,
                       "disabledWhenInvalid": true,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 33,
+                      "originalBottomRow": 29,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     },
@@ -1659,10 +1659,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
-                      "originalTopRow": 29,
+                      "originalTopRow": 25,
                       "disabledWhenInvalid": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 33,
+                      "originalBottomRow": 29,
                       "buttonVariant": "SECONDARY",
                       "placement": "CENTER"
                     },
@@ -2430,7 +2430,7 @@
               "key": "8x8vzax81h",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 60,
+              "rightColumn": 61,
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "k9rvljeu51",
               "minWidth": 450,
@@ -2481,7 +2481,7 @@
               "text": "Edit Your Profile",
               "key": "flr5v6k323",
               "isDeprecated": false,
-              "rightColumn": 60,
+              "rightColumn": 61,
               "backgroundColor": "#f3e8ff",
               "textAlign": "CENTER",
               "dynamicHeight": "AUTO_HEIGHT",
@@ -2498,7 +2498,7 @@
               "originalTopRow": 0,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 4,
+              "originalBottomRow": 5,
               "fontSize": "1.875rem",
               "minDynamicHeight": 4
             }
