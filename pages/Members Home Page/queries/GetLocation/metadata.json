@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Members Page",
+    "pageId": "Members Home Page",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -59,7 +59,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Members Page_GetLocation",
+  "id": "Members Home Page_GetLocation",
   "deleted": false,
   "gitSyncId": "64401779824bbc19c6d4e4fd_64401977824bbc19c6d4e503"
 }

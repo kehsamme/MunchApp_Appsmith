@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "GetResInfo",
+    "name": "GetTopTen",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/m/resinfo/{{Input_city.inputText}}"
+        "url": "web:4000/m/tenBestRated"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Members Page",
+    "pageId": "Members Home Page",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -37,23 +37,17 @@
       }
     },
     "executeOnLoad": true,
-    "dynamicBindingPathList": [
-      {
-        "key": "datasourceUrl"
-      }
-    ],
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "Input_city.inputText"
-    ],
+    "jsonPathKeys": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Members Page_GetResInfo",
+  "id": "Members Home Page_GetTopTen",
   "deleted": false,
-  "gitSyncId": "64401779824bbc19c6d4e4fd_644072bb824bbc19c6d4e543"
+  "gitSyncId": "64401779824bbc19c6d4e4fd_64401bef824bbc19c6d4e507"
 }
