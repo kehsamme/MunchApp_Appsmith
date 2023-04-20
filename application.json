@@ -1,19 +1,19 @@
 {
   "pages": [
     {
-      "id": "Members Home Page",
+      "id": "Members Home",
       "isDefault": true
     },
     {
-      "id": "Owners Home Page",
+      "id": "Owners Home",
       "isDefault": false
     },
     {
-      "id": "Members Page 2",
+      "id": "Members Profile",
       "isDefault": false
     },
     {
-      "id": "Owners Page 2",
+      "id": "Owners Profile",
       "isDefault": false
     }
   ],
