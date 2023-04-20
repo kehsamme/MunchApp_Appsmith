@@ -11,6 +11,10 @@
     {
       "id": "Members Page 2",
       "isDefault": false
+    },
+    {
+      "id": "Owners Page 2",
+      "isDefault": false
     }
   ],
   "viewMode": false,

@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Owners Page",
+    "pageId": "Owners Page 2",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -53,7 +53,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Owners Page_DeleteReward",
+  "id": "Owners Page 2_DeleteReward",
   "deleted": false,
   "gitSyncId": "64401779824bbc19c6d4e4fd_6440257e824bbc19c6d4e51b"
 }
