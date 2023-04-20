@@ -969,7 +969,7 @@
                       "resetFormOnClick": true,
                       "boxShadow": "none",
                       "widgetName": "submit_email",
-                      "onClick": "{{PutEmail.run()}}",
+                      "onClick": "{{PutEmail.run(() => showAlert('Email updated'), () => {})}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -1482,7 +1482,7 @@
                       "maxDynamicHeight": 9000,
                       "originalBottomRow": 14,
                       "iconAlign": "left",
-                      "defaultText": "",
+                      "defaultText": "Angelique Vigar",
                       "minDynamicHeight": 4
                     },
                     {

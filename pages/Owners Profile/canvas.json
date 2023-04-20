@@ -125,6 +125,7 @@
                       "resetFormOnClick": true,
                       "boxShadow": "none",
                       "widgetName": "Button1",
+                      "onClick": "{{PostMenu.run(() => showAlert('Item added'), () => {})}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -137,6 +138,11 @@
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 49,
                       "dynamicBindingPathList": [
                         {
@@ -1564,7 +1570,7 @@
                       "resetFormOnClick": true,
                       "boxShadow": "none",
                       "widgetName": "reward_button",
-                      "onClick": "{{DeleteReward.run()}}",
+                      "onClick": "{{DeleteReward.run(() => showAlert('Reward Deleted'), () => {})}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -1924,7 +1930,7 @@
                       "resetFormOnClick": true,
                       "boxShadow": "none",
                       "widgetName": "put_owner",
-                      "onClick": "{{PutOwnerInfo.run()}}",
+                      "onClick": "{{PutOwnerInfo.run(() => showAlert('Profile Updated'), () => showAlert('Error'))}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
